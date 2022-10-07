@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="gallery.css">
+    <title>Gallery</title>
+</head>
+<body>
+    <div class="gallery">
+        <div class="photos">
+            <img onclick="main.src = this.src" src="images/k1.jpeg" alt="kotp">
+            <img onclick="main.src = this.src" src="images/k2.jpeg" alt="kotp">
+            <img onclick="main.src = this.src" src="images/k3.jpeg" alt="kotp">
+            <img onclick="main.src = this.src" src="images/k4.jpeg" alt="kotp">
+        </div>
+
+        <div class="main">
+            <img src="images/k1.jpeg" alt="" name="main">
+        </div>
+
+        <div class="photos">
+            <img onmousemove="main.src = this.src" src="images/k1.jpeg" alt="kotp">
+            <img onmousemove="main.src = this.src" src="images/k2.jpeg" alt="kotp">
+            <img onmousemove="main.src = this.src" src="images/k3.jpeg" alt="kotp">
+            <img onmousemove="main.src = this.src" src="images/k4.jpeg" alt="kotp">
+        </div>
+
+    </div>
+    
+    <script src="gallery.js"></script>
+</body>
+</html>
